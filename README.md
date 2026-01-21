@@ -1,6 +1,8 @@
 # IPGR
 Point Cloud Completion Refinement
 
+<img width="1671" height="641" alt="框架图新" src="https://github.com/user-attachments/assets/7fd9dbe0-d613-4622-988b-d7d362767963" />
+
 Insatllation(depend describe)
 
 Quick Start 
