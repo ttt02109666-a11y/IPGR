@@ -28,8 +28,8 @@ class IPGR(nn.Module):
     一个通用的点云补全后处理框架，可应用于任何点云补全模型。
 
     Args:
-        base_alpha: 基础细化强度，默认 0.10
-        num_iter: 迭代次数，默认 4
+        base_alpha: 
+        num_iter: 
         use_distance_aware: 是否使用距离感知自适应，默认 True
 
     Example:
@@ -64,7 +64,7 @@ class IPGR(nn.Module):
         """
         基础迭代细化 (固定 alpha)
 
-        创新点 1 + 2: 部分点云引导 + 多轮迭代
+    
         """
         refined = pred
         B, N, _ = pred.shape
@@ -125,7 +125,7 @@ class IPGR(nn.Module):
                 f"use_distance_aware={self.use_distance_aware})")
 
 
-# ============== 便捷函数 ==============
+
 
 def ipgr_refine(pred, partial, base_alpha=0.10, num_iter=4):
     """
