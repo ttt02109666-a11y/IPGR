@@ -1,14 +1,3 @@
-"""
-IPGR 测试脚本
-
-使用方法:
-    python test_ipgr.py --config cfgs/xxx.yaml --ckpt path/to/ckpt.pth
-
-可选参数:
-    --base_alpha: 基础细化强度 (默认 0.10)
-    --num_iter: 迭代次数 (默认 4)
-    --no_ipgr: 不使用 IPGR 后处理
-"""
 
 import torch
 import torch.nn as nn
